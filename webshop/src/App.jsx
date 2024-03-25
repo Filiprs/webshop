@@ -1,10 +1,19 @@
-
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
 
   return (
     <>
-      <h1>Hej</h1>
+      <div>
+        <Router>
+          
+          <Routes>
+            <Route path="/"/>
+            <Route path="/cart"/>
+
+          </Routes>
+        </Router>
+        </div>
     </>
   )
 }
